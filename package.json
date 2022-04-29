@@ -1,0 +1,22 @@
+{
+  "name": "quickfunc",
+  "version": "1.2.3",
+  "description": "A package when you just need things like getting a random thing from an array and etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Nothing to run here.\""
+  },
+  "keywords": [
+    "quick",
+    "function",
+    "functions"
+  ],
+  "author": "realguystuff",
+  "license": "ISC",
+  "dependencies": {
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "quickfunctions": "^1.1.2"
+  }
+}
