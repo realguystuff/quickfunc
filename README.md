@@ -8,7 +8,7 @@ Fixed the problem with `prime();`, because if the number is not divisible with 3
 
 ## How to use quickfunc
 
-First things first, we must know how to use these functions. Currently, there are three functions, and we will know how to use them.
+The tutorial below refers to the functions, so that you'll know how to use them. If you are getting an error, please refer back to this page.
 
 ### randomArray();
 
@@ -37,7 +37,7 @@ return randomArray(array, object);
 
 ### oddEven();
 
-This tells you if your number is odd or even. This is particularly useful if you are dealing with inputs.
+This tells you if your number is odd or even. This is particularly useful if you are dealing with inputs. [^limitations]
 
 Usage:
 
@@ -59,7 +59,7 @@ return oddEven(number);
 
 ### prime();
 
-Heres a chart on what will the function do:
+Heres a chart on what will the function do: [^limitations2]
 
 
 if prime: returns true
@@ -115,3 +115,8 @@ return clean(value, replace);
 ```
 
 `clean(<value>, [replace])`
+
+[^limitations]:
+    Very high numbers will most likely to return even.
+[^limitations2]:
+    Very high numbers will most likely to return 2.
