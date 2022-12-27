@@ -1,5 +1,4 @@
-module.exports = (array, look) => {
-  // there is no such thing as 'array' in `typeof`, as arrays are classified as 'object'.
-  if (look !== 'array') return array.filter(function(element) { return typeof element === look; });
-  else return array.filter(Array.isArray);
+module.exports=(a,l)=>{
+  if (l !== 'array') return a.filter(function(element) { return typeof element === l; });
+  else return a.filter(Array.isArray);
 }
