@@ -1,8 +1,5 @@
-module.exports = async (text, replace) => {
+module.exports = (text, replace) => {
     replace = replace || null;
-    if (text && text.constructor.name == "Promise") {
-        text = await text;
-    }
 
     if (typeof text !== "string") {
         text = require("util").inspect(text, { depth: 1 });
