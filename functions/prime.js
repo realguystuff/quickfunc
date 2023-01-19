@@ -1,1 +1,1 @@
-module.exports=(v)=>{if(typeof v!=='number')throw new Error("Using the 'prime' function requires a number.");else{if(v%2!==0){if(v%3!==0){if(v%5!==0){if(v%7!==0){return true;}return 7;}return 5;}return 3;}return 2;}}
+module.exports=r=>{if(typeof r!=="number")throw new Error("Using the 'prime' function requires a number.");else{if(r%2!==0){if(r%3!==0){if(r%5!==0){if(r%7!==0){return true}return 7}return 5}return 3}return 2}};

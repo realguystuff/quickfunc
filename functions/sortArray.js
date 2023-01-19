@@ -1,8 +1,1 @@
-module.exports=(ar,r)=>{
-  r = r ?? null;
-  if (Array.isArray(ar)) {
-    ar.sort((a, b) => a - b);
-    if (r) ar.reverse();
-    return ar;
-  } else throw new Error("Using the 'sortArray' function requires an array.");
-}
+module.exports=(r,n)=>{if(!Array.isArray(r))throw new Error("Using the 'sortArray' function requires an array.");n&&r.reverse();i(r,0,r.length-1);return r};function i(n,t,e){if(t<e){let r=o(n,t,e);i(n,t,r-1);i(n,r+1,e)}}function o(n,t,e){let i=n[e],o=t-1;for(let r=t;r<e;r++){if(n[r]<=i){[n[++o],n[r]]=[n[r],n[o]]}}[n[o+1],n[e]]=[n[e],n[o+1]];return o+1}
