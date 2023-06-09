@@ -1,0 +1,1 @@
+module.exports=(n,r,a,e,t)=>{return e+(t-e)*(n-r)/(a-r)}
