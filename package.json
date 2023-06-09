@@ -1,6 +1,6 @@
 {
   "name": "quickfunc",
-  "version": "1.9.3",
+  "version": "1.9.4",
   "description": "A package where all your everyday functions are packed.",
   "main": "index.js",
   "scripts": {
