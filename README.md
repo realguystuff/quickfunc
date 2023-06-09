@@ -16,7 +16,7 @@ The documentation below refers to the functions. If you are getting an error, pl
 
 This function re-maps a number from one range to another.
 
-`map_range(<value>, <low1>, <high1>, <low2>, <high2>);`
+`map(<value>, <low1>, <high1>, <low2>, <high2>);`
 
 ### `sortArray();`
 
