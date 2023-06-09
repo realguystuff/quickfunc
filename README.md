@@ -4,15 +4,19 @@ Your package to grab some functions quickly!
 
 ## Current update adds...
 
-`clean();` is now removed from the package.
-
-`sortArray();` now uses QuickSort instead of BubbleSort to make it faster.
+`map();` is now added. To you all p5.js and/or processing devs, this does the same exact thing.
 
 We are now supporting vanilla javascript! All functions for this support are in `vanilla.js` (https://raw.githubusercontent.com/realguystuff/quickfunc/master/vanilla.js).
 
 ## How do I use `quickfunc`?
 
 The documentation below refers to the functions. If you are getting an error, please refer back to this page.
+
+### `map();`
+
+This function re-maps a number from one range to another.
+
+`map_range(<value>, <low1>, <high1>, <low2>, <high2>);`
 
 ### `sortArray();`
 
